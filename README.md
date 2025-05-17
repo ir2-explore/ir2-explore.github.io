@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [IR2-Explore website](https://ir2-explore.github.io).
 
-If you find Search-TTA useful for your work please cite:
+If you find IR2 useful for your work please cite:
 ```
 @INPROCEEDINGS{derek2024IR2,
   author={Tan, Derek Ming Siang and Ma, Yixiao and Liang, Jingsong and Chng, Yi Cheng and Cao, Yuhong and Sartoretti, Guillaume},

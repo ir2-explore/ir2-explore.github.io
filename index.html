@@ -89,7 +89,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">IR2: Implicit Rendezvous for Robotic Exploration Teams under Sparse Intermittent Connectivity</h1>
+          <h1 class="title is-1 publication-title"><i>IR</i><sup style="margin-left: 8px;">2</sup>: Implicit Rendezvous for Robotic Exploration Teams under Sparse Intermittent Connectivity</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://derektan95.github.io">Derek M. S. Tan</a><sup>1</sup>,</span>
@@ -262,7 +262,7 @@
             <!-- due to their greedy nature.  -->
           </p>
           <p>
-            We present IR2, a deep reinforcement learning approach to information sharing for multi-robot exploration. Leveraging attention-based neural networks trained via reinforcement and curriculum learning, IR2 allows robots to effectively reason about the longerterm trade-offs between disconnecting for solo exploration and reconnecting for information sharing. In addition, we propose a hierarchical graph formulation to maintain a sparse yet informative graph, enabling our approach to scale to large-scale environments. We present simulation results in three large-scale Gazebo environments, which show that our approach yields 6.6−34.1% shorter exploration paths and significantly improved mapped area consistency among robots when compared to SOTA baselines.
+            We present <i>IR</i><sup style="margin-left: 2px;">2</sup>, a deep reinforcement learning approach to information sharing for multi-robot exploration. Leveraging attention-based neural networks trained via reinforcement and curriculum learning, <i>IR</i><sup style="margin-left: 2px;">2</sup> allows robots to effectively reason about the longerterm trade-offs between disconnecting for solo exploration and reconnecting for information sharing. In addition, we propose a hierarchical graph formulation to maintain a sparse yet informative graph, enabling our approach to scale to large-scale environments. We present simulation results in three large-scale Gazebo environments, which show that our approach yields 6.6−34.1% shorter exploration paths and significantly improved mapped area consistency among robots when compared to SOTA baselines.
           </p>
         </div>
       </div>
@@ -298,7 +298,7 @@
         <h2 class="title is-3">Approach</h2>
         <div class="content has-text-justified">
           <p>
-            IR2 propose a novel information-sharing strategy that achieves high exploration efficiency by estimating the future impact of current exploration and rendezvous decisions. There are three key contributions to our proposed work: <b>(1)</b> We use an <b>attention-based neural network</b> trained by deep reinforcement learning (DRL) to help robots learn to sequence non-myopic decisions. <b>(2)</b> We implement <b>two-stage curriculum learning</b>, where robots are placed in increasingly
+            <i>IR</i><sup style="margin-left: 2px;">2</sup> propose a novel information-sharing strategy that achieves high exploration efficiency by estimating the future impact of current exploration and rendezvous decisions. There are three key contributions to our proposed work: <b>(1)</b> We use an <b>attention-based neural network</b> trained by deep reinforcement learning (DRL) to help robots learn to sequence non-myopic decisions. <b>(2)</b> We implement <b>two-stage curriculum learning</b>, where robots are placed in increasingly
             difficult exploration environments with increasing frequency and duration of disconnectivity. This drives robots to learn complex, dynamic connectivity strategies to attain even higher
             exploration efficiency. <b>(3)</b> We utilize a <b>hierarchical graph formulation</b>, to enable scaling of our strategy to large-scale environments. This involves maintaining both a sparse global
             graph representation of the robots’ map and a dense local graph centered on the robot. Combining graphs at different spatial scales helps robots strike a balance between long- and short-term exploration and rendezvous goals.
@@ -342,7 +342,7 @@
         <h2 class="title is-3">Baseline Comparison</h2>
         <div class="content has-text-justified">
           <p>
-            We compare IR2 with a pursuit-based approach (Pursuit) and a preplanned-based approach (Preplanned). In general, IR2 outperforms these baselines, and improves in both distance and time efficiency with increasing number of robots. Our approach generalizes to both proximity and signal-strength communication constraints.
+            We compare <i>IR</i><sup style="margin-left: 2px;">2</sup> with a pursuit-based approach (Pursuit) and a preplanned-based approach (Preplanned). In general, <i>IR</i><sup style="margin-left: 2px;">2</sup> outperforms these baselines, and improves in both distance and time efficiency with increasing number of robots. Our approach generalizes to both proximity and signal-strength communication constraints.
           </p>
           <video id="comparison-video" controls playsinline height="100%">
             <source src="./static/videos/IROS24_IR2_Gazebo_Sim_Comparison.mp4"
@@ -364,7 +364,7 @@
         <h2 class="title is-3">Other Environments</h2>
         <div class="content has-text-justified">
           <p>
-            IR2 performs well in Forest (150m x 150m) and Campus (340m x 340m) Gazebo environments.
+            <i>IR</i><sup style="margin-left: 2px;">2</sup> performs well in Forest (150m x 150m) and Campus (340m x 340m) Gazebo environments.
           </p>
           <video id="framework-video" controls playsinline height="100%">
             <source src="./static/videos/IROS24_Visualization_Forest_and_Campus.mp4"
