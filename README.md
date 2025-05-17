@@ -1,14 +1,15 @@
 # Nerfies
 
-This is the repository that contains source code for the [Search-TTA website](https://search-tta.github.io).
+This is the repository that contains source code for the [IR2-Explore website](https://ir2-explore.github.io).
 
 If you find Search-TTA useful for your work please cite:
 ```
-@article{tan2025searchtta
-  author    = {Derek Ming Siang Tan, Shailesh, Boyang Liu, Alok Raj, Qi Xuan Ang, Weiheng Dai, Tanishq Duhan, Jimmy Chiun, Yuhong Cao, Florian Shkurti, Guillaume Sartoretti},
-  title     = {Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild},
-  journal   = {Under Review},
-  year      = {2025},
+@INPROCEEDINGS{derek2024IR2,
+  author={Tan, Derek Ming Siang and Ma, Yixiao and Liang, Jingsong and Chng, Yi Cheng and Cao, Yuhong and Sartoretti, Guillaume},
+  booktitle={2024 IEEE International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={IR2: Implicit Rendezvous for Robotic Exploration Teams under Sparse Intermittent Connectivity}, 
+  year={2024},
+  doi={10.48550/arXiv.2409.04730}
 }
 ```
 
