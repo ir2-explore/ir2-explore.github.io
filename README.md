@@ -1,4 +1,4 @@
-# Nerfies
+# IR2-Explore
 
 This is the repository that contains source code for the [IR2-Explore website](https://ir2-explore.github.io).
 
