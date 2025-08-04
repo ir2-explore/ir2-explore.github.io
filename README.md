@@ -4,12 +4,13 @@ This is the repository that contains source code for the [IR2-Explore website](h
 
 If you find IR2 useful for your work please cite:
 ```
-@INPROCEEDINGS{derek2024IR2,
+@inproceedings{tan2024ir,
+  title={Ir 2: Implicit rendezvous for robotic exploration teams under sparse intermittent connectivity},
   author={Tan, Derek Ming Siang and Ma, Yixiao and Liang, Jingsong and Chng, Yi Cheng and Cao, Yuhong and Sartoretti, Guillaume},
-  booktitle={2024 IEEE International Conference on Intelligent Robots and Systems (IROS)}, 
-  title={IR2: Implicit Rendezvous for Robotic Exploration Teams under Sparse Intermittent Connectivity}, 
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={13245--13252},
   year={2024},
-  doi={10.48550/arXiv.2409.04730}
+  organization={IEEE}
 }
 ```
 
