@@ -3,7 +3,7 @@
 This is the repository that contains source code for the [IR2-Explore website](https://ir2-explore.github.io).
 
 If you find IR2 useful for your work please cite:
-```
+```bibtex
 @inproceedings{tan2024ir,
   title={Ir 2: Implicit rendezvous for robotic exploration teams under sparse intermittent connectivity},
   author={Tan, Derek Ming Siang and Ma, Yixiao and Liang, Jingsong and Chng, Yi Cheng and Cao, Yuhong and Sartoretti, Guillaume},
